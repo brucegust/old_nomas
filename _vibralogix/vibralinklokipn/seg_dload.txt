@@ -1,0 +1,2 @@
+Course: !!!description!!!.<br />
+<span style='font-weight:normal;'>Handouts link: <a href="!!!link!!!">!!!filename!!!</a> expires in !!!expires!!!. (Filesize: !!!size!!!).</span>

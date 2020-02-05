@@ -1,0 +1,127 @@
+* {margin:0; padding:0;}
+
+body {
+	font: 10pt arial, sans-serif;
+	background-color: #ffffff;
+	color: #373737;
+	padding: 10px;
+}
+
+h1 {
+	font: 18pt arial, sans-serif;
+	font-weight: bold;
+	color: #3162aa;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+/*  .backup is for the email page */
+
+.backup {
+	position: static;
+}
+
+#cancel-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(cancelbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#cancel-go:hover {
+	background-position:0 -28px;
+}
+
+#backup-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(backupbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#backup-go:hover {
+	background-position:0 -28px;
+}
+
+input[type="button"].backup {
+	font-weight: normal;
+}
+
+.backuperror {
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: bold;
+	position: static;
+}
+
+label.backup {
+	float:left;
+	width: 120px;
+	text-align: right;
+	margin-right:10px;
+	margin-top: 3px;
+  vertical-align: middle;	
+}
+
+.filename {
+	padding: 2px;
+	width:200px;
+	font: 10pt arial, sans-serif;
+	color: #555555;
+	margin-top: 3px;
+  vertical-align: middle;	
+}
+
+.delete {
+	margin-top: 0px;
+  vertical-align: middle;	  
+}
+/* Following styles used on the backup progress window */
+
+body.backupprocess {
+  position: static;
+}
+
+p.backupprocess {
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	color: #373737;
+	font-weight: normal;
+	position: static;
+	text-align: center;
+}
+
+p.backupprocesswarning {
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: normal;
+	position: static;
+	text-align: center;
+}
+
+input.backupprocesswarning {
+	font-family: arial, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: normal;
+	position: static;
+	text-align: center;
+}
+
+a.backupprocess {
+   position: static;
+}
+

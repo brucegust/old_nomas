@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+body { line-height:1; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+table { border-collapse:collapse; border-spacing:0; }
+
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+	background: #FFFBFB;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFF9), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFF9, #FFFFFF);
+}
+
+#playground {
+    font: 62.5% Arial, Helvetica, sans-serif;
+	max-width:640px;
+	min-width:640px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	background-color:#FFFFFF;
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 5px 10px 10px #333333;
+	-webkit-box-shadow: 5px 10px 10px #333333;
+	box-shadow: 5px 10px 10px #333333;
+}
+
+#header {
+	width:99.5%;
+	height: 95px;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #CCCCCC;
+	background: #FFFFFF;
+}
+
+#logo {
+	float:left;
+	margin-left:40px;
+	padding:0;
+	border:none;
+}
+
+#playpen {
+	width:75%;
+	margin:12px 
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+}
+
+#playpen .pageTitle {
+	margin:8px 0 0 0;
+	font-size:1.8em;
+	font-weight:bold;
+	color:#134E77;
+}
+
+#playpen .pageSubTitle {
+	margin:8px 0 0 0;
+	font-size:1.2em;
+	color:#666666;
+}
+
+#playpen .error_msg {
+	margin:8px 0 0 0;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#FF0000;	
+}
+
+sub, sup {
+    font-size:80%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline;
+}
+
+sup { top: -0.5em; } 
+sub { bottom: -0.25em; }
+
+/* FORM */
+
+#form_login {
+	width:90%;
+	margin:20px auto;
+	padding:8px;
+	background:#FFECFF;
+	border:1px solid #999;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;  	
+    -moz-box-shadow: 5px  10px 10px #999;
+    -webkit-box-shadow: 5px 10px 10px #999;
+    box-shadow: 5px 10px 10px #999; 	
+}
+
+#form_login label {
+	clear:both;
+	width:95%;
+	height:26px;
+    float:left;
+	margin:0;	
+	font-size:1.2em;
+    font-weight:normal;
+}
+
+#form_login input {
+	clear:both;
+	width:95%;
+	height:26px;
+    float:left;
+	margin:0 0 10px 0;
+	padding-left:2px;
+	font-size:1.2em;
+    font-weight:bold;
+}
+
+#form_login button {
+	clear:both;
+	width:99.5%;
+	height:26px;
+	margin:12px 0 0 0;
+    font-weight:bold;
+	font-size:1.3em;
+}
+
+#footer {
+	clear:both;
+	margin:10px 0;
+	padding: 10px;
+	border-top: 1px solid #CCCCCC;
+	text-align:center;
+	font-family:"Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+#footer .copy {
+	clear:both;
+	font-size:1.1em;
+	color:#134E77;
+}
+
+.options {
+	width:100%;
+	margin:25px 0;
+	padding:12px 0;
+    font-family:Tahoma, Geneva, sans-serif;	
+	background:#FFECFF;
+	border:1px solid #999;
+}
+
+ul.option_nav {
+	list-style:none; 
+	margin:0;
+	padding:0;
+}
+
+ul.option_nav li {
+	width:95%;
+	font-size:1.3em;
+	font-weight:normal;
+	color:#0099CC;
+}
+
+ul.option_nav li.title {
+	clear:both;
+	margin-bottom:12px;
+	padding-left:15px;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#134E77;
+}
+
+ul.option_nav a, ul.option_nav a:visited { 
+	padding:3px 15px;
+	display:block; 
+	text-decoration:none;
+	color: #006699;
+}
+
+ul.option_nav a, ul.option_nav a:visited { 
+	color: #134E77;
+}
+
+ul.option_nav a:hover, ul.option_nav a:active, ul.option_nav a:focus { 
+	background: #6F7D94;
+	color: #FFF;
+}
+
+.clearAll {
+	clear: both;
+	margin: 0;
+}
+
+.red {
+	color:#FF0000;
+}
+

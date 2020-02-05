@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+.l_item h1 {
+	font:1.7em Tahoma, Geneva, sans-serif;	
+	background-color:#09F;
+	color:#FFF;
+	font-weight:bold;
+	padding:8px;
+	margin-bottom:8px;
+}
+
+.l_item .sub_hed {
+	font:1.5em Tahoma, Geneva, sans-serif;	
+	font-weight:bold;
+	background-color:#FFF;	
+	color:#2A1F55;
+	margin-bottom:8px;		
+}
+
+.tiny_text_box {
+	width:99%;
+	margin:8px 0px;
+	border: 1px solid #333;
+	padding:5px;
+	line-height:1.3em		
+}
+
+.tiny_text {
+	font:1.3em Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.tiny_text .bld {
+	font-weight:bold;
+}
+
+.tiny_text .ital {
+	font-style:italic;
+	font-weight:bold;
+}
+
+.tiny_text img {
+    width: 98%;
+	border: 0;
+}
+
+.note_text_box {
+	width:99%;
+	margin:8px 0px;
+	background-color:#F6C;
+	padding:5px;
+	line-height:1.3em		
+}
+
+.note_text {
+	font:1.3em Arial, Helvetica, sans-serif;
+	color:#000;
+	font-weight:bold;
+}
+
+.note_text .heavy {
+	font:1.1em Arial, Helvetica, sans-serif;	
+	color:#000;
+	font-weight:bold;
+}
+
+.refund_box {
+	width:99%;
+	margin:8px 0px;
+	background-color:#FFF;
+	border:1px solid #333;
+	padding:8px;
+}
+
+.refund_text {
+	font:1.3em Arial, Helvetica, sans-serif;
+	color:#000;
+	font-weight:normal;
+}
+
+.refund_bld {
+	font-weight:bold;
+}
+
+.refund_box a {
+	color:#550000;
+	text-decoration:underline;
+}
+
+.refund_box a:hover {
+	color:#550000;
+	text-decoration:underline;
+	font-style:italic;	
+}
+
+ul.pink {
+   list-style-type: none;
+   padding:0px;
+   margin:0px;
+}
+
+ul.pink .hed {
+   font-size:1.5em;
+   font-weight:bold;
+   margin-bottom:12px;
+}
+
+ul.pink li.pink {
+   font:1.3em Georgia, "Times New Roman", Times, serif;
+   font-weight:normal;
+   background-image: url('../_grafix/pink_sq.gif');
+   background-repeat: no-repeat;
+   background-position: 0px 8px; 
+   padding-left:18px; 
+   line-height:1.8em;
+   margin-bottom:10px;
+}
+
+/* TABLES */
+
+.items_box {
+   width:100%;
+   margin:12px 0;
+   padding:0 12px;
+}
+
+.items {
+   border:none;
+   font:1.4em Georgia, "Times New Roman", Times, serif;   
+}
+
+.items td {
+   padding:6px 12px 6px 0;
+}
+
+.items .hed {
+   font-weight:bold;
+   padding:6px 12px 6px 0;
+}
+
+.items .button {
+   text-align:left;
+   padding 6px 0 12px 0;
+}
+
+.items .bld {
+   font-weight:bold;	
+}
+
+.items .ital {
+   font-style:italic;	
+}
+
+/* SPRY COLLAPSIBLE */
+
+.CollapsibleCourses {
+	margin: 0px;
+	padding: 0px;
+}
+
+.CollapsibleCoursesTab {
+	font:1.7em Tahoma, Geneva, sans-serif;	
+	font-weight:bold;
+	background-color:#09F;
+	color:#FFF;
+	margin:12px 0;
+	height:1.8em;
+	padding:6px 8px 0px 8px;
+	cursor:pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.CollapsibleCoursesContent {
+	margin:0px;
+	padding:0 12px;
+	border:1px dotted #F69;	
+}
+
+.CollapsibleCoursesContent .half_box_l {
+	float:left;
+	width:45%;
+	padding:8px 12px 0px 8px;
+	border-right:1px dotted #F69;	
+}
+
+.CollapsibleCoursesContent .half_box_r {
+	float:left;
+	width:47%;
+	padding:8px 0 0 8px;
+	margin-left:18px;
+}
+
+.CollapsibleCoursesContent .half_box_r .text {
+	font:1.3em Georgia,"Times New Roman", Times, serif;	
+	line-height:1.8em;	
+}
+
+.CollapsibleCoursesContent .half_box_r .text .hed {
+	font:1.1em Georgia,"Times New Roman", Times, serif;	
+	font-weight:bold;	
+}
+
+.CollapsibleCoursesContent .half_box_r .text .strong, .CollapsibleCoursesContent .half_box_r .text .bld {
+	color:#000;
+	font-weight:bold;
+}
+
+/*
+
+.CollapsibleCoursesOpen .CollapsibleCoursesTab {
+	color:#FFF;
+	background-color:#134E77;
+}
+
+.CollapsibleCoursesClosed .CollapsibleCoursesTab {
+    background-color:#134E77;
+}
+
+.CollapsibleCoursesTab a {
+	font-style:italic;
+    color:#134E77;
+}
+
+.CollapsibleCoursesTabHover,  .CollapsibleCoursesOpen .CollapsibleCoursesTabHover {
+	font-style:italic;	
+    text-decoration:underline;
+	background-color:#FFF;
+}
+
+.CollapsibleCoursesFocused .CollapsibleCoursesTab {
+	color:#FFF;
+	background-color:#134E77;
+}
+*/

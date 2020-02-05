@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tablesorter_box {
+	clear:both;
+	width:100%;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border:none;
+}
+
+.tablesorter_box h1 {
+	font:1.4em Verdana, Arial, Helvetica, sans-serif;
+	margin:8px 0px;
+	color:#900;
+}
+
+.tablesorter {
+    font:1em Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	background-color: #CDCDCD;
+	margin:0;
+	width: 100%;
+	text-align: left;
+	border: 1px dotted #999; 
+}
+
+.tablesorter thead tr th {
+	height:24px;
+	background-color:#26466D;
+	color:#FFF;
+	text-align:left;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size: 1.2em;
+	padding: 6px 4px 0px 4px;
+}
+
+.tablesorter tfoot tr th {
+	height:24px;
+	background-color:#26466D;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	font-size: 1.2em;
+	padding:6px 4px 0px 4px;	
+}
+
+.tablesorter td.seperator {
+	background-color:#26466D;
+	color:#FFF;
+	font-weight:bold;
+	font-size: 1.2em;			
+}
+
+.tablesorter thead tr .header {
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+.tablesorter tbody td {
+	font-size:1.1em;
+	color: #3D3D3D;
+	padding: 8px 0px 8px 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+.tablesorter tbody td.btt {
+	font-size:1em;
+	font-weight:bold;
+	color: #FFF;
+	text-align:right;
+	padding: 8px 16px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+.tablesorter tbody td.pct25 {
+	width:25%;
+}
+
+.tablesorter tbody td.pct20 {
+	width:20%;
+}
+
+.tablesorter tbody td.pct15 {
+	width:15%;
+}
+
+.tablesorter tbody td.pct10 {
+	width:10%;
+}
+
+.tablesorter tbody td.pct05 {
+	width:5%;
+}
+
+.tablesorter tbody td.green {
+	color:#060;
+}
+
+.tablesorter tbody td.red {
+	color:#FF0000;
+}
+
+.tablesorter tbody td a {
+	color:#550000;
+	text-decoration:none;
+}
+
+.tablesorter tbody td a:hover {
+	color:#550000;
+	text-decoration:underline;
+}
+
+.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+.tablesorter thead tr .headerSortUp {
+	background-image:none;
+}
+.tablesorter thead tr .headerSortDown {
+	background-image:none;
+}
+.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+   background-color: #8dbdd8;
+}
+.ctr {
+   text-align:center;
+}
+.green {
+   color:#6C0;
+}
+.red {
+   color:red;
+}

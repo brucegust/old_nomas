@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+.error_table {
+	width:100%;
+	margin:8px 0px;
+}
+
+.error_table td {
+	font:1.5em Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:3px 0px;
+	color:#C00;
+}
+
+.sked_table { 
+    font:1.2em Verdana, Arial, Helvetica, sans-serif;
+    width:100%; 
+	margin:12px 0;
+	border: 1px solid #cccccc; 
+}
+
+.sked_table tr { 
+	height: 18px; 
+}
+
+.sked_table td { 
+    background-color: #FFFFF1; 
+	color: #000; 
+	height: 18px; 
+	padding:8px;
+	border-bottom:1px solid #333;
+}
+
+.sked_table .td_1, .sked_table .th_1 {
+	width:20%;
+}
+
+.sked_table .sked_table .td_2, .sked_table .th_2 {
+	width:30%;
+}
+
+.sked_table .td_3, .sked_table .th_3 {
+	width:50%;
+}
+
+.sked_table .td_4 {
+	width:10%;	
+	text-align:center;
+}
+
+.sked_table .td_1 {
+	font-weight:bold;	
+}
+
+.sked_table th { 
+    text-align:left;
+    background-color: #336699; 
+	color: #FFF; 
+	height: 18px; 
+}
+
+.sked_table .th_1, .sked_table .th_2, .sked_table .th_3, .sked_table .th_4 {
+	font-weight:bold;
+    background-color: #336699; 
+	color: #FFF; 
+	height: 24px; 	
+	padding-top:6px;
+	padding-left:8px;
+}
+
+.sked_table .th_4 {
+   padding-left:0px;	
+   padding-left:21px;	
+}
+
+
+.sked_table td a, .sked_table td a:visited { 
+    text-decoration:none;
+    color: #660000; 
+}
+
+.sked_table td a:hover { 
+    text-decoration:underline;
+    color: #660000; 
+}
+
+/*--------------------------------------------
+----------------------------------------------
+----------------------------------------------
+*/
+
+.list_table { 
+    font:1.2em Verdana, Arial, Helvetica, sans-serif;
+    width:100%; 
+	margin:12px 0;
+	border: 1px solid #cccccc; 
+}
+
+.list_table tr { 
+	height: 18px; 
+}
+
+.list_table .td_1, .list_table .td_2, .list_table .td_3, .list_table .th_1, .list_table .th_2, .list_table .th_3 {
+	width:20%;
+}
+
+.list_table .td_1, .list_table .td_2, .list_table .td_3, .list_table . td_4 {
+	font-weight:bold;
+}
+
+.list_table .td_4, .list_table .td_5, .list_table .th_4, .list_table .th_5 {
+	width:40%;	
+}
+
+.list_table th, .list_table .ctr  { 
+    text-align:left;
+    background-color: #336699; 
+	color: #FFF; 
+	height: 18px; 
+}
+
+.list_table .th_1, .list_table .th_2, .list_table .th_3, .list_table .th_4, .list_table .th_5 {
+	font-weight:bold;
+    background-color: #336699; 
+	color: #FFF; 
+	height: 24px; 	
+	padding:6px 0 0 3px;
+}
+
+.list_table .ctr { 
+    text-align:center;
+}
+
+.list_table td { 
+    background-color: #FFFFF1; 
+	color: #000; 
+	height: 18px; 
+	padding:8px;
+	border-bottom:1px solid #333;
+}
+
+.list_table .td_5 {
+	width:100%;
+	height:12px; 	
+    text-align:left;
+    background-color: #336699; 
+	color: #FFF; 	
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+.list_table .td_on { 
+    background-color: #efefef; 
+	color: #000; 
+	height: 18px; 
+	padding:8px;
+	border-bottom:1px solid #333;
+}
+
+.list_table .td_ctr { 
+    background-color: #CCC; 
+	color: #000; 
+	height: 18px; 
+	padding:0px;
+	text-align:center;
+	border-bottom:1px solid #333;
+}
+
+.list_table td a, .list_table td a:visited { 
+    text-decoration:underline;
+    color: #660000; 
+}
+
+.list_table td a:hover { 
+    text-decoration:underline;
+	font-style: italic;
+    color:green; /* #660000; */
+}
+
+.list_table button {
+    text-align:center;
+	width:100%;
+	margin:16px 0;
+}
+
+.list_table .percent {
+	font-size:.8em;
+	color:#0099CC;
+}
+
+/*--------------------------------------------
+----------------------------------------------
+----------------------------------------------
+*/
+
+.edit_training_table {
+	border-collapse: separate;
+	border: 1px solid #cccccc;	
+	width:99%; 
+	margin:20px 0px;
+	padding:8px;
+	background-color: #FFFFF1;
+}
+
+.edit_training_table tr {
+	height:28px;
+}
+
+.edit_training_table th {
+    font:1.4em Tahoma, Geneva, sans-serif;
+	color: #FFFFFF; 
+    background-color: #336699; 
+	font-weight:bold;		
+	text-align:left;
+	padding:8px;
+}
+
+.edit_training_table td {
+    font:1.3em Verdana, Geneva, sans-serif;
+	color: #333333; 
+    background-color: #FFFFF1; 
+	padding:3px 3px 3px 8px;
+}
+
+.edit_training_table td.caption {
+    font:1.1em Verdana, Geneva, sans-serif;
+	color: #000; 
+	font-weight:bold;
+    background-color: #FFFFF1; 
+	padding:3px 3px 3px 8px;
+}
+
+.edit_training_table button {
+	height:28px;
+	width:40%;
+	background-color:#0099CC;
+	margin-bottom:8px;
+	/*
+	background: -webkit-gradient(linear, left top, left bottom, from(#0099CC), to(#ebebeb));
+    background: -webkit-linear-gradient(top, #0099CC, #ebebeb);
+    background: -moz-linear-gradient(top, #0099CC, #ebebeb);
+    background: -ms-linear-gradient(top, #0099CC, #ebebeb);
+    background: -o-linear-gradient(top, #0099CC, #ebebeb);	
+	*/
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+    border-radius: 12px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;	
+}
+
+.edit_training_table .red_button {
+	float:right;
+	height:60px;
+	width:30%;
+	background-color:#FF0000;
+	/*
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF0033), to(#FF0000));
+    background: -webkit-linear-gradient(top, #FF0033, #FF0000);
+    background: -moz-linear-gradient(top, #FF0033, #FF0000);
+    background: -ms-linear-gradient(top, #FF0033, #FF0000);
+    background: -o-linear-gradient(top, #FF0033, #FF0000);	
+	*/
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+    border-radius: 12px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/*--------------------------------------------
+----------------------------------------------
+----------------------------------------------
+*/
+
+.member_table {
+	width:100%; 
+    font:1.1em Arial, Helvetica, sans-serif;
+	border: 1px solid #cccccc; 
+}
+
+.member_table th { 
+    text-align:left;
+	height: 21px; 
+	padding:6px;
+    font:1.1em Tahoma, Geneva, sans-serif;
+	color: #FFFFFF; 
+    background-color: #336699; 
+	font-weight:bold;	
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.member_table tr { 
+	height: 18px; 
+}
+
+.member_table td { 
+    font-size:1.1em;	
+	height:18px; 
+	padding:6px;	
+	color: #000; 
+    background-color: #FFFFF1; 
+	border-bottom:1px solid #999;
+}
+
+.member_table td .ctr {
+	text-align:center; 
+}
+
+.member_table td .rgt { 
+	text-align:right; 
+}
+
+.member_table td a, .member_table th a { 
+    text-decoration:none;
+    color: #660000; 	
+}
+
+.member_table td a:hover, .member_table th a:hover { 
+    text-decoration:underline;
+    color: #660000; 
+}
+
+.member_table button {
+    text-align:center;
+	width:100%;
+	margin:16px 0;
+	cursor:pointer;	
+}
+
+.delete_button {
+	height:26px;
+	text-transform:uppercase;
+	background-color:#CC0000;
+	color:#FFFFFF;
+	border-bottom:2px solid #000000;
+	border-right:1px solid #000000;
+	cursor:pointer;
+}
+
+
+
+
+

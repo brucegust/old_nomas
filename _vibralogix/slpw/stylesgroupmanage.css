@@ -1,0 +1,53 @@
+.editgroup{
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.deletegroup{
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+	cursor: pointer;  
+}
+
+.groupname{
+	font: 10pt arial, sans-serif;
+	color: #373737;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.groupdesc{
+	font: 10pt arial, sans-serif;
+	color: #373737;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.addgroup{
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.addgrouptext{
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 2px;
+  padding-bottom: 2px;
+	font: 10pt arial, sans-serif;
+	color: #373737;
+}
+
+a {
+  text-decoration: none;
+}

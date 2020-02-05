@@ -1,0 +1,195 @@
+div.calendar{
+  position:absolute;
+	top:0px;
+	left:0px;
+	visibility:hidden;
+}
+table.calendar {
+	position: static;
+	border-spacing: 0px;
+	background-color: #F9F8FF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #ABADF3;
+	border-right-color: #ABADF3;
+	border-bottom-color: #ABADF3;
+	border-left-color: #ABADF3;
+}
+
+.monthselect {
+	position: static;
+	cursor: default;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ABADF3;
+	background-color: #f9f8ff;
+	padding: 0px;
+}
+
+.monthselecttext {
+	position: static;
+	cursor: default;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px;
+	margin: 0px;
+}
+
+.dayofweek {
+	position: static;
+	cursor: default;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ABADF3;
+	background-color: #FFFFFF;
+    padding: 0px;
+}
+
+.dayofweektext {
+	position: static;
+	cursor: default;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+.dayofmonth {
+	position: static;
+	cursor: default;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ABADF3;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+}
+.dayofmonthtext {
+	position: static;
+	cursor: default;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+}
+.dayofmonthtexthlt {
+	position: static;
+	cursor: default;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	background-color: #ffc14a;
+}
+.close {
+	position: static;
+	cursor: default;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ABADF3;
+	padding: 0px;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+.closetext {
+	position: static;
+	cursor: default;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #3333CC;
+	font-weight: normal;
+	text-align: right;
+	margin: 0px;
+}
+
+
+
+div.combobox{
+  position:absolute;
+	top:0px;
+	left:0px;
+	visibility:hidden;
+	z-index:1000;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;	
+	background-color:#FFFFFF;
+  border-color: #ABADF3;
+}
+ul.combobox {
+	position: static;
+	cursor: default;
+	list-style:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #373737;
+	font-weight: normal;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border-top-width: 0px;
+	border-top-style: solid;
+}
+ul.combobox li:hover {
+  background-color:#3399FF;
+}
+

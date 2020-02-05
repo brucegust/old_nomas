@@ -1,0 +1,10 @@
+[29-Jun-2018 06:28:07 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'nomasint'@'localhost' (using password: YES)' in /home1/nomasint/public_html/support/adm/carter.inc:7
+Stack trace:
+#0 /home1/nomasint/public_html/support/adm/carter.inc(7): PDO->__construct('mysql:host=loca...', 'nomasint', 'Edzp0DyR7H')
+#1 /home1/nomasint/public_html/support/adm/email_list.php(17): require_once('/home1/nomasint...')
+#2 {main}
+  thrown in /home1/nomasint/public_html/support/adm/carter.inc on line 7
+[29-Jun-2018 06:30:45 America/Denver] PHP Notice:  Undefined index: Edit in /home1/nomasint/public_html/support/adm/email_display.php on line 3
+[29-Jun-2018 06:30:50 America/Denver] PHP Notice:  Undefined index: Edit in /home1/nomasint/public_html/support/adm/email_display.php on line 3
+[29-Jun-2018 06:30:55 America/Denver] PHP Notice:  Undefined index: Edit in /home1/nomasint/public_html/support/adm/email_display.php on line 3
+[29-Jun-2018 06:31:00 America/Denver] PHP Notice:  Undefined index: Edit in /home1/nomasint/public_html/support/adm/email_display.php on line 3

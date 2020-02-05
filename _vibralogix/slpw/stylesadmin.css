@@ -1,0 +1,506 @@
+body {
+	font: 10pt arial, sans-serif;
+	padding:10px;
+	background-color: #ffffff;
+	color: #373737;
+}
+h1 {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 18pt;
+	font-weight: bold;
+	color: #3162aa;
+}
+
+/*  navbar is the menu at the top of the control panel main page */
+
+span.nobreak {
+        white-space: nowrap;
+        }
+
+#navbar {
+   margin: 0;
+   padding: 0;
+   height: 2.0em;
+   background-color: #3162aa;
+}
+#navbar li {
+   list-style: none;
+   float: left;
+   height: 2.0em;
+}
+#navbar li a {
+   font-family: Helvetica, Verdana, Arial, sans-serif;
+   font-style: normal;
+   font-weight: normal;
+	 font-size: 11pt;
+   display: block;
+   padding-top: 4px;
+   padding-left: 8px;
+   padding-bottom: 3px;
+   padding-right: 8px;
+   background-color: #3162aa;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+/* anylinkscss for the drop down menu */
+
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+background: #3162aa;
+}
+
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkcss{
+position: absolute;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid #3162aa;
+border-bottom-width: 0;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 11pt;
+line-height: 22px;
+z-index: 100; /* zIndex should be greater than that of shadow's below */
+background: #3162aa;
+width: 200px; /* default width for menu */
+}
+
+.anylinkcss ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkcss ul li a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #3162aa;
+padding: 1px 0;
+text-decoration: none;
+font-weight: normal;
+text-indent: 5px;
+color: white;
+
+}
+
+.anylinkcss a:hover{ /*hover background color*/
+background: #accbe0;
+color: white;
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkcsscols{
+position: absolute;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid #3162aa;
+padding: 10px;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 11pt;
+z-index: 100; /*zIndex should be greater than that of shadow's below*/
+background: #DEFFCA;
+}
+
+.anylinkcsscols .column{
+width: 130px;
+float: left;
+}
+
+.anylinkcsscols .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkcsscols li{
+padding-bottom: 3px;
+}
+
+/* ######### class for shadow DIV ######### */
+
+.anylinkcss img{
+margin-right: 5px;
+margin-left: 3px;
+vertical-align: text-bottom;
+border: none;
+}
+
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+position: absolute;
+left: 0;
+top: 0;
+z-index: 99; /*zIndex for shadow*/
+background: black;
+visibility: hidden;
+}
+
+/* Styles for user action popup menu*/
+
+.jqpopupmenu, .jqpopupmenu ul{ /*topmost and sub ULs, respectively*/
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 9pt;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border: 1px solid black;
+visibility: hidden;
+display: none; /*collapse all sub menus to begin with*/
+box-shadow: 3px 3px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 3px 3px 8px #818181;
+-moz-box-shadow: 3px 3px 8px #818181;
+}
+
+
+.jqpopupmenu li{
+position: relative;
+}
+
+.jqpopupmenu li a{
+display: block;
+width: 200px; /*width of menu (not including side paddings)*/
+color: black;
+background: #F5F5F5;
+text-decoration: none;
+padding: 2px 5px;
+}
+
+* html .jqpopupmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 210px; /*width of menu (include side paddings of LI A*/
+}
+
+.jqpopupmenu li a:hover, .jqpopupmenu li.selected>a{
+background: #e0e0e0;
+}
+
+.jqpopupmenu img {
+margin-right: 5px;
+margin-left: 3px;
+vertical-align: text-bottom;
+border: none;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+  
+
+/*  .filter is the filter (search) area on the control panel main page */
+
+div.filter {
+  margin-top: 20px;
+}
+
+table.filter {
+	border: 1px solid #ABADF3;
+	border-spacing: 0px;
+	background-color: #fafafa;
+}
+
+table.filter th {
+	cursor: default;
+	border: none;
+	border-bottom: 1px solid #fafafa; 
+	border-spacing: 0px;
+	border-collapse: collapse;
+	background-color: #3162aa;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	color: #ffffff;
+  font-weight: normal;
+	text-align: left;
+	padding:3px;	
+}
+
+/*
+table.filter th {
+	cursor: default;
+	border: 0px none #000000;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	background-color: #3162aa;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	color: #ffffff;
+  font-weight: normal;
+	text-align: left;
+	padding-left:5px;
+}
+*/
+
+table.filter td {
+	cursor: default;
+	border: none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+select.filter {
+	border:1px solid #ABADF3;
+	font-size: 8pt;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #191919;
+	-moz-border-radius: 3px;
+	-khtml-border-radius:3px;
+  -webkit-border-radius: 5px;	
+  border-radius: 3px;
+}
+
+input[type="text"].filter,input.inputtextfilter {
+	width:200px;
+	border:1px solid #ABADF3;
+	background:#ffffff;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+	color: #191919;
+	-moz-border-radius: 5px;
+	-khtml-border-radius:5px;
+  -webkit-border-radius: 5px;	
+	border-radius: 5px;
+}
+
+input[type="text"].filter.short,input.inputtextfilter.short{
+	width: 3em;
+}
+
+
+#sqlinput {
+	width:500px;
+	border:1px solid #ABADF3;
+	background:#ffffff;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
+	color: #191919;
+	-moz-border-radius: 5px;
+	-khtml-border-radius:5px;
+	border-radius: 5px;
+}
+
+#filter-go {
+  color: transparent; /* Fix for Firefox */
+	width:62px;
+	height:18px;
+  padding: 0 0 0 62px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(filterbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#filter-go:hover {
+	background-position:0 -23px;
+}
+
+#query-go {
+  color: transparent; /* Fix for Firefox */
+	width:62px;
+	height:18px;
+  padding: 0 0 0 62px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(querybutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#query-go:hover {
+	background-position:0 -23px;
+}
+
+p.filtererror {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+/*  .numrows is the area that display the number of rows in total and selected */
+
+div.numrows {
+	padding-top: 3px;
+}
+
+table.numrows {
+	border: none;
+	border-spacing: 0px;
+	background-color: #FFFFFF;
+}	
+
+table.numrows td {
+	cursor: default;
+	border: none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #373737;
+	font-weight: bold;
+}
+
+a.numrows {
+  color: green;
+  margin-left: 10px;
+}
+
+
+/*  .records is the records table area on the control panel main page */
+
+div.records {
+  padding-top: 3px;
+}
+
+table.records {
+	border: 1px solid #ABADF3;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background-color: #fafafa;
+}
+
+table.records th {
+	font-style: normal;
+	cursor: default;
+	border-right: 1px solid #ABADF3;
+	border-bottom: 1px solid #ABADF3;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background-color: #3162aa;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align: left;	
+}
+
+table.records th.sortcolumn {
+  font-weight: bold; 
+}
+
+table.records td {
+	cursor: default;
+	border-right: 1px solid #ABADF3;
+	border-bottom: 1px solid #ABADF3;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #191919;
+	font-weight: normal;
+	text-align: left;
+}
+
+a.records {
+}
+
+input.records {
+}
+
+img.records {
+	border: 0;
+}
+
+.recordseven {
+	background-color: #fafafa;
+	 height: 22px;
+}
+
+.recordseven:hover {
+  background-color: #ffc14a;
+}
+
+.recordsodd {
+	background-color: #ededed;
+	height: 22px;
+}
+
+.recordsodd:hover {
+  background-color: #ffc14a;
+}
+
+.recordsblankeven {
+	background-color: #ededed;
+	height: 22px;
+}
+
+.recordsblankeven:hover{
+  background-color: #ffc14a;
+}
+
+.recordsblankodd {
+	background-color: #e5e5e5;
+	height: 22px;
+}
+
+.recordsblankodd:hover {
+  background-color: #ffc14a;
+}
+
+/*  .controls is the db navigation bar on control panel main page */
+
+div.controls {
+  margin-top: 5px;
+  float: left;
+}
+
+select.controls {
+	border:1px solid #ABADF3;
+	font-size: 8pt;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	color: #191919;
+	-moz-border-radius: 3px;
+	-khtml-border-radius:3px;
+  -webkit-border-radius: 5px;	
+  border-radius: 3px;
+}
+
+div.selectall {
+  margin-top: 5px;
+  float: left;
+}
+
+#selectedactions {
+  margin-top: 5px;
+  float: left;
+}
+
+
+/*  Emails sent and failed messages  */
+
+.emailsent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #009900;
+	font-weight: bold;
+}
+
+.emailfailed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+

@@ -1,0 +1,38 @@
+[19-Aug-2016 12:59:05 America/Denver] PHP Warning:  date() expects at least 1 parameter, 0 given in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 11
+[30-Aug-2016 14:53:03 America/Denver] PHP Notice:  Undefined variable: _Get in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 12
+[30-Aug-2016 14:53:03 America/Denver] PHP Notice:  Undefined index: amt in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 15
+[30-Aug-2016 14:55:43 America/Denver] PHP Notice:  Undefined index: amt in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 12
+[19-Dec-2018 13:30:53 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[19-Dec-2018 13:30:54 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[21-Dec-2018 09:11:32 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[22-Dec-2018 10:16:34 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[22-Dec-2018 23:05:24 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[26-Dec-2018 12:41:41 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[26-Dec-2018 12:42:16 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[26-Dec-2018 18:08:48 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[26-Dec-2018 18:12:10 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[27-Dec-2018 03:58:36 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[27-Dec-2018 03:58:37 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[27-Dec-2018 06:47:00 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[27-Dec-2018 22:31:07 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[28-Dec-2018 18:38:35 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[30-Dec-2018 20:35:57 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[01-Jan-2019 16:57:05 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[04-Jan-2019 00:36:55 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[04-Jan-2019 00:36:56 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[07-Jan-2019 20:23:25 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[09-Jan-2019 13:05:06 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[09-Jan-2019 13:05:06 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[10-Jan-2019 20:54:19 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[10-Jan-2019 20:54:27 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[15-Jan-2019 07:25:18 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[15-Jan-2019 07:25:24 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[15-Jan-2019 15:16:38 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 07:46:27 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 07:50:28 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 07:50:29 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 10:34:29 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 21:10:41 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 21:12:30 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 21:15:08 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318
+[16-Jan-2019 21:24:50 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home1/nomasint/public_html/_vibralogix/vibralinklokipn/linklokipn.php on line 3318

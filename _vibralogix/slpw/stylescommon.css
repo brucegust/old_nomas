@@ -1,0 +1,441 @@
+* {margin:0; padding:0;}
+
+html {
+	font: 10pt arial, sans-serif;
+	padding:10px;
+	background-color: #ffffff;
+	color: #373737;
+}
+
+form {
+	background:#fafafa;
+	padding:10px;
+	border:1px solid #eee;
+	margin:10px;
+	width:800px;
+}
+h1 {
+	font: 18pt arial, sans-serif;
+	font-weight: bold;
+	color: #3162aa;
+	margin: 10px;
+}
+div.verticalfield {
+	margin-left: 0px;
+	margin-bottom:5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	clear:both;
+}
+div.horizontalfield {
+	margin-left: 0px;
+	margin-bottom:5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: left;
+}
+div.blankspace {
+  height: 10px;
+	clear:both;
+}
+div.buttons {
+	margin-left: 0px;
+}
+div.selectbutton {
+	margin-left: 205px;
+}
+label.verticalfield {
+	float:left;
+	width:200px;
+	text-align:right;
+	margin-right:10px;
+	margin-top: 3px;
+  vertical-align: middle;	
+}
+label.verticalfieldnofloat {
+	margin-top: 3px;
+  vertical-align: middle;	
+	float:none;
+}
+label.horizontalfield {
+	float:left;
+	width:100px;
+	text-align:right;
+  vertical-align: middle;	
+	margin-right:10px;
+	margin-top: 3px;
+}
+legend {
+	color:#3162aa;
+	font-size:12pt;
+	margin-left: 10px;
+}
+input[type="text"],input[type="password"],input.inputtext {
+	padding: 2px;
+	width:200px;
+	border:1px solid #ABADF3;
+	background:#ffffff;
+	font:bold 10pt arial, sans-serif;
+	color: #555555;
+	-moz-border-radius: 5px;
+	-khtml-border-radius:5px;
+	border-radius: 5px;
+}
+
+input[type="text"].long,input[type="password"].long,input.long,input.long {
+	width:550px;
+}
+
+input[type="text"].short,input[type="password"].short,input.short {
+	width:100px;
+}
+
+input[type="text"].medium,input[type="password"].medium,input.medium {
+	width:400px;
+}
+
+input[type="text"].veryshort,input[type="password"].veryshort,input.veryshort {
+	width:50px;
+}
+
+input[type="file"],input.inputfile {
+	padding: 2px;
+	background:#ffffff;
+	font:normal 10pt arial, sans-serif;
+	color: #555555;
+}
+
+input[type="text"].errorfield,input[type="password"].errorfield,input.errorfield {
+	border:1px solid red;
+}
+
+select.errorfield {
+	border:1px solid red;
+}
+
+select {
+	padding: 2px;
+	border:1px solid #ABADF3;
+	background-color: #ffffff;
+	font:bold 10pt arial, sans-serif;
+	color: #555555;
+	-moz-border-radius: 5px;
+	-khtml-border-radius:5px;
+  border-radius: 5px;	
+}
+/*
+select:hover, select:focus {
+	border-color:#ABADF3;
+	background:#f6f6f6;
+}
+
+input:hover, input:focus {
+	border-color:#ABADF3;
+	background:#f6f6f6;
+}
+*/
+input[type="checkbox"],input.inputcheckbox {
+  vertical-align: middle;
+}
+input[type="radio"],input.radio {
+	padding: 2px;
+	margin-top: 1px;
+}
+textarea {
+  width: 550px;
+  height: 8em;
+	padding: 2px;
+	border:1px solid #ABADF3;
+	background:#ffffff;
+	font:bold 10pt arial, sans-serif;
+	color: #555555;
+	-moz-border-radius: 5px;
+	-khtml-border-radius:5px;
+	border-radius: 5px;
+	resize: none;
+}
+
+.inputindent {
+	margin-left: 210px; 
+}
+.selectdisabled {
+	border:1px solid #dddddd;
+	background:#ffffff;
+	color: #dddddd;
+}
+
+input[type="text"].inputdisabled,input[type="password"].inputdisabled,inputdisabled {
+	border:1px solid #ddd;
+	background:#ffffff;
+	color: #ddd;
+}
+
+fieldset {
+	border:1px solid #ddd;
+	padding: 0 5px 5px 0px;
+	margin-bottom: 15px;
+}
+
+input.default {
+	color:#bbb;
+}
+#save-go {
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(savebutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+	margin-top:10px;
+}
+#save-go:hover {
+	background-position:0 -28px;
+}
+#cancel-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(cancelbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#cancel-go:hover {
+	background-position:0 -28px;
+}
+#goback-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(gobackbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#goback-go:hover {
+	background-position:0 -28px;
+}
+#select-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(selectbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#select-go:hover {
+	background-position:0 -28px;
+}
+#set-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(setbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#set-go:hover {
+	background-position:0 -28px;
+}
+#set-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(setbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#set-go:hover {
+	background-position:0 -28px;
+}
+#view-go {
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(viewbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+	margin-top:10px;
+}
+#view-go:hover {
+	background-position:0 -28px;
+}
+#export-go {
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(exportbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+	margin-top:10px;
+}
+#export-go:hover {
+	background-position:0 -28px;
+}
+#delete-go {
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(deletebutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+	margin-top:10px;
+}
+#delete-go:hover {
+	background-position:0 -28px;
+}
+#import-go {
+	margin-top:10px;
+  color: transparent; /* Fix for Firefox */
+	width:79px;
+	height:28px;
+  padding: 0 0 0 79px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(importbutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#import-go:hover {
+	background-position:0 -28px;
+}
+#random-go {
+	margin: 0px;
+	padding: 0px;
+  color: transparent; /* Fix for Firefox */
+	width:62px;
+	height:23px;
+  padding: 0 0 0 62px !important; /* Fix for Internet Explorer */
+  line-height: 1 !important;
+	overflow:hidden;
+	border:0;
+	background:url(randombutton.png) no-repeat 0 0;
+	cursor:pointer !important; cursor:hand;
+}
+#random-go:hover {
+	background-position:0 -23px;
+}
+.textfieldnote {
+	font: 8pt arial, sans-serif;
+	color: gray;
+  padding-left: 212px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-right: 2px;
+	text-align: left;
+	clear: both;
+}
+.cbfieldnote {
+	font: 8pt arial, sans-serif;
+	color: gray;
+	text-align: left;
+}
+.selectfieldnote {
+	font: 8pt arial, sans-serif;
+	color: gray;
+  padding-left: 212px;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-right: 2px;
+	text-align: left;
+	clear: both;
+}
+
+.sectionnotes {
+  width: 400px;
+	margin-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border:1px solid #ddd;
+	background-color: #ededed;
+	padding: 5px;
+	clear:both;	
+	font: 8pt arial, sans-serif;
+	color: gray;
+	text-align: left;
+}
+
+.generaltext {
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	clear:both;	
+	text-align: left;
+}
+.generalerrortext {
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	clear:both;	
+	text-align: left;
+	color: red;
+}
+.formerror{
+  width: 600px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	clear:both;	
+	font: 12pt arial, sans-serif;
+	font-weight:normal;
+	color: red;
+	text-align: left;
+}
+.textfielderror {
+	font: 8pt arial, sans-serif;
+	font-weight: normal;
+	color: red;
+	padding-left: 212px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	text-align: left;
+	clear:both;
+}
+.selectfielderror {
+	font: 8pt arial, sans-serif;
+	font-weight: normal;
+	color: red;
+	padding-left: 212px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	text-align: left;
+	clear:both;
+}
+img {
+border: none;
+margin: 0px;
+padding: 0px;
+}
+a {
+  color: #373737;
+}
